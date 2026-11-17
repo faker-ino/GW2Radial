@@ -172,7 +172,16 @@ MumbleLink::EliteSpec MumbleLink::characterSpecialization() const {
         Vindicator = 69,
         Mechanist = 70,
         Specter = 71,
-        Untamed = 72
+        Untamed = 72,
+        Luminary = 81,
+        Conduit = 79,
+        Paragon = 74,
+        Amalgam = 75,
+        Galeshot = 78,
+        Antiquary = 77,
+        Evoker = 80,
+        Troubadour = 73,
+        Ritualist = 76,
     };
 
     switch(AnetEliteSpec(identity_.specialization)) {
@@ -232,6 +241,25 @@ MumbleLink::EliteSpec MumbleLink::characterSpecialization() const {
         return EliteSpec::Specter;
     case AnetEliteSpec::Untamed:
         return EliteSpec::Untamed;
+    case AnetEliteSpec::Luminary:
+        return EliteSpec::Luminary;
+    case AnetEliteSpec::Conduit:
+        return EliteSpec::Conduit;
+    case AnetEliteSpec::Paragon:
+        return EliteSpec::Paragon;
+    case AnetEliteSpec::Amalgam:
+        return EliteSpec::Amalgam;
+    case AnetEliteSpec::Galeshot:
+        return EliteSpec::Galeshot;
+    case AnetEliteSpec::Antiquary:
+        return EliteSpec::Antiquary;
+    case AnetEliteSpec::Evoker:
+        return EliteSpec::Evoker;
+    case AnetEliteSpec::Troubadour:
+        return EliteSpec::Troubadour;
+    case AnetEliteSpec::Ritualist:
+        return EliteSpec::Ritualist;
+        
     }
 }
 

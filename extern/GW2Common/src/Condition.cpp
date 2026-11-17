@@ -51,8 +51,8 @@ bool IsEliteSpecCondition::DrawInnerMenu() {
     i32 comboVal = static_cast<i32>(elitespec_);
     const char* items =
         "No "
-        "Elite\0Berserker\0Bladesworn\0Catalyst\0Chronomancer\0Daredevil\0Deadeye\0Dragonhunter\0Druid\0Firebrand\0Harbinger\0Herald\0Holos"
-        "mith\0Mechanist\0Mirage\0Reaper\0Renegade\0Scourge\0Scrapper\0Soulbeast\0Specter\0Spellbreaker\0Tempest\0Untamed\0Vindicator\0Virt"
+        "Elite\0Amalgam\0Antiquary\0Berserker\0Bladesworn\0Catalyst\0Chronomancer\0Conduit\0Daredevil\0Deadeye\0Dragonhunter\0Druid\0Evoker\0Firebrand\0Galeshot\0Harbinger\0Herald\0Holos"
+        "mith\0Luminary\0Mechanist\0Mirage\0Paragon\0Reaper\0Renegade\0Ritualist\0Scourge\0Scrapper\0Soulbeast\0Specter\0Spellbreaker\0Tempest\0Troubadour\0Untamed\0Vindicator\0Virt"
         "uoso\0Weaver\0Willbender\0";
 
     if(ImGui::Combo(suffix.c_str(), &comboVal, items)) {
